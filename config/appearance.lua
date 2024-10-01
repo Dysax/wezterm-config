@@ -39,9 +39,15 @@ return {
    show_tab_index_in_tab_bar = false,
    switch_to_last_active_tab_when_closing_tab = true,
 
+   status_update_interval = 1000,
+
+   tab_bar_at_bottom = false,
+
+   
+
    -- window
    window_padding = {
-      left = 0,
+      left = 5,
       right = 0,
       top = 10,
       bottom = 7.5,
